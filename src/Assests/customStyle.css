@@ -1,0 +1,27 @@
+#myBtn {
+  display: block;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  padding: 8px;
+  background-color: black;
+  /* border-radius: 50%; */
+}
+
+.component{
+  margin-top: 56px;
+}
+
+@media (max-width: 576px) { 
+  .width100{
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 575.98px) {
+  
+}
